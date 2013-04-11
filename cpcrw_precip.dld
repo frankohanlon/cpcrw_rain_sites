@@ -1,0 +1,81 @@
+};CR10X
+;cpcrw_precip.dld
+;$
+;:battery  :paneltemp:precip   
+;$
+
+;%
+;Final Storage Label File for:  cpcrw_precip.csi
+;Date:  9/13/2012
+;Time:  23:29:23
+;
+;104 Output_Table  30.00 Min
+;1 104 L
+;2 Year_RTM  L
+;3 Day_RTM  L
+;4 Hour_Minute_RTM  L
+;5 precip_TOT  L
+;6 battery_MIN  L
+;7 paneltemp_AVG  L
+;
+;
+;Estimated Total Final Storage Locations used per day 336
+;%
+
+MODE 1
+SCAN RATE 60
+
+1:P3
+1:1
+2:1
+3:2
+4:3
+5:.01
+6:0.0
+
+2:P10
+1:1
+
+3:P17
+1:2
+
+4:P92
+1:0
+2:30
+3:10
+
+5:P77
+1:1110
+
+6:P72
+1:1
+2:3
+
+7:P74
+1:1
+2:0
+3:1
+
+8:P71
+1:1
+2:2
+
+
+MODE 2
+SCAN RATE 0.0000
+
+
+MODE 3
+
+MODE 10
+1:28
+2:64
+3:0
+
+
+MODE 12
+1:0000
+2:0000
+3:0000
+
+
